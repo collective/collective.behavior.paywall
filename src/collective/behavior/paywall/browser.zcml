@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.behavior.paywall" >
+
+  <browser:resourceDirectory
+      name="collective.behavior.paywall"
+      directory="static"
+      />
+
+  <browser:page
+      class=".controlpanel.PaywallSettingsControlPanel"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      name="paywall-settings"
+      permission="collective.behavior.paywall.Setup"
+      />
+
+</configure>

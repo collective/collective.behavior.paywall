@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-04-26 19:40+0000\n"
+"PO-Revision-Date: 2017-04-26 16:44-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: collective/behavior/paywall/profiles.zcml:14
+msgid "A behavior for Dexterity-based content types that adds a Paywall for your content."
+msgstr "Um behavior para tipos de conteúdo baseados no Dexterity que adiciona uma Paywall."
+
+#: collective/behavior/paywall/configure.zcml:27
+msgid "Adds a paywall for content."
+msgstr "Adiciona um paywall para o conteúdo."
+
+#: collective/behavior/paywall/interfaces.py:39
+msgid "Button text"
+msgstr "Texto do botão"
+
+#: collective/behavior/paywall/interfaces.py:42
+msgid "Continue reading"
+msgstr "Continuar lendo"
+
+#: collective/behavior/paywall/interfaces.py:21
+msgid "Enable paywall"
+msgstr "Habilitar o paywall"
+
+#: collective/behavior/paywall/interfaces.py:32
+msgid "Enable paywall globally"
+msgstr "Habilitar o paywall globalmente"
+
+#: collective/behavior/paywall/interfaces.py:22
+msgid "Enable the paywall for this item."
+msgstr "Habilitar o Paywall para este elemento."
+
+#: collective/behavior/paywall/interfaces.py:33
+msgid "Enable the paywall on this site."
+msgstr "Habilitar o Paywall em este site."
+
+#: collective/behavior/paywall/browser/controlpanel.py:11
+#: collective/behavior/paywall/configure.zcml:27
+#: collective/behavior/paywall/interfaces.py:19
+msgid "Paywall"
+msgstr "Paywall"
+
+#: collective/behavior/paywall/profiles.zcml:14
+msgid "Paywall Support"
+msgstr "Suporte para Paywall"
+
+#: collective/behavior/paywall/browser/controlpanel.py:12
+msgid "Settings for the paywall."
+msgstr "Configuração do paywall."
+
+#: collective/behavior/paywall/interfaces.py:40
+msgid "Text to be shown in the button used to bypass the paywall."
+msgstr "Texto que será mostrado no botão usado para passar por cima do paywall."
+
+#: collective/behavior/paywall/interfaces.py:47
+msgid "This expression is used to locate the last element to be shown. All elements after this one will be held behind the paywall. Default expression selects the second paragraph of the content."
+msgstr "Esta expressão é usada para localizar o último elemento a ser mostrado no conteúdo. Qualquer elemento após este, será ocultado detrás do paywall. A expressão padrão seleciona o segundo parágrafo do conteúdo."
+
+#: collective/behavior/paywall/profiles.zcml:23
+msgid "Uninstalls collective.behavior.paywall."
+msgstr "Desinstala o collective.behavior.paywall."
+
+#: collective/behavior/paywall/interfaces.py:46
+msgid "XPath expression"
+msgstr "Expressão XPath"
+
+#: collective/behavior/paywall/profiles.zcml:23
+msgid "collective.behavior.paywall: uninstall"
+msgstr "collective.behavior.paywall: uninstall"

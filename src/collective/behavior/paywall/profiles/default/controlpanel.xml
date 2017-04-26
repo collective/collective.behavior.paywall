@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<object name="portal_controlpanel"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="collective.behavior.paywall"
+    purge="False">
+  <configlet title="Paywall"
+      action_id="paywall"
+      appId="collective.behavior.paywall"
+      category="Products"
+      condition_expr=""
+      url_expr="string:${portal_url}/@@paywall-settings"
+      icon_expr="string:${portal_url}/++resource++collective.behavior.paywall/paywall-icon.png"
+      visible="True"
+      i18n:attributes="title">
+    <permission>collective.behavior.paywall: Setup</permission>
+  </configlet>
+</object>
