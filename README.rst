@@ -86,7 +86,7 @@ and all its siblings will be hidden by applying a class to them.
 A button is inserted as the last element of the body text.
 This button fires a JavaScript event that removed the class and hides the button itself.
 
-The paywall is only applied to anonimous users.
+The paywall is only applied to anonymous users.
 
 Small CSS and JavaScript snippets are also inserted on each item behind the firewall.
 
