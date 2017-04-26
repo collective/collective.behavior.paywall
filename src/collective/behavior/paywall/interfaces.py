@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from collective.behavior.paywall import _
 from collective.behavior.paywall.config import DEFAULT_XPATH_EXPRESSION
+from collective.behavior.paywall.validators import is_xpath_expression
 from plone.autoform.interfaces import IFormFieldProvider
 from plone.supermodel import model
 from zope import schema
@@ -51,4 +52,5 @@ class IPaywallSettings(model.Schema):
         ),
         required=True,
         default=DEFAULT_XPATH_EXPRESSION,
+        constraint=is_xpath_expression,
     )
