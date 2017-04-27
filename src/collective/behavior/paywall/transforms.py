@@ -52,6 +52,7 @@ class PaywallTransform(object):
     def __init__(self, published, request):
         self.published = published
         self.request = request
+        self.context = getattr(published, 'context', None)
         registry = getUtility(IRegistry)
         self.settings = registry.forInterface(IPaywallSettings)
 
@@ -83,7 +84,7 @@ class PaywallTransform(object):
         if not self.response_is_html:
             return
 
-        if not paywall_enabled(self.published.context):
+        if not paywall_enabled(self.context):
             return
         logger.debug('Paywall enabled in context')
 
